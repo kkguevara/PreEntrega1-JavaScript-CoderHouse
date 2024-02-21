@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous">
+            <link rel="stylesheet" href="./style.css">
+        <title>Proyecto js</title>
+    </head>
+    <body>
+        <div id="trivia" style="display: none;">
+            <h1> TRIVIA </h1>
+            <br>
+            <form id="trivia_form">
+                <p> 1-¿Cuál fue la primera consola de videojuegos comercialmente
+                    exitosa?</p>
+                <br>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio"
+                        name="pregunta1"
+                        id="pregunta1"
+                        value="Nintendo Entertainment System (NES)">
+                    <label class="form-check-label" for="pregunta1">
+                        Nintendo Entertainment System (NES)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio"
+                        name="pregunta1"
+                        id="pregunta1" value="Atari 2600">
+                    <label class="form-check-label" for="pregunta1">
+                        Atari 2600
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio"
+                        name="pregunta1"
+                        id="pregunta1" value="Sega Genesis">
+                    <label class="form-check-label" for="pregunta1">
+                        Sega Genesis
+                    </label>
+                </div>
+                <br>
+                <p> 2-¿Cuál es el juego más vendido de todos los tiempos para
+                    una
+                    consola?</p>
+                <br>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio"
+                        name="pregunta2"
+                        id="pregunta2" value="Super Mario Bros">
+                    <label class="form-check-label" for="pregunta2">
+                        Super Mario Bros
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio"
+                        name="pregunta2"
+                        id="pregunta2" value="Minecraft">
+                    <label class="form-check-label" for="pregunta2">
+                        Minecraft
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio"
+                        name="pregunta2"
+                        id="pregunta2" value="Grand Theft Auto V">
+                    <label class="form-check-label" for="pregunta2">
+                        Grand Theft Auto V
+                    </label>
+                </div>
+                <br>
+                <p> 3-¿Cuál fue el primer juego de consola en incluir gráficos
+                    en
+                    3D?</p>
+                <br>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio"
+                        name="pregunta3"
+                        id="pregunta3" value="Doom">
+                    <label class="form-check-label" for="pregunta3">
+                        Doom
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio"
+                        name="pregunta3"
+                        id="pregunta3" value="Super Mario 64">
+                    <label class="form-check-label" for="pregunta3">
+                        Super Mario 64
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio"
+                        name="pregunta3"
+                        id="pregunta3" value="Virtual Racing">
+                    <label class="form-check-label" for="pregunta3">
+                        Virtual Racing
+                    </label>
+                </div>
+                <br>
+                <p> 4- ¿Cuál fue el primer juego de consola en incluir un modo
+                    multijugador en pantalla dividida?</p>
+                <br>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio"
+                        name="pregunta4"
+                        id="pregunta4" value="GoldenEye 007">
+                    <label class="form-check-label" for="pregunta4">
+                        GoldenEye 007
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio"
+                        name="pregunta4"
+                        id="pregunta4" value="Super Smash Bros">
+                    <label class="form-check-label" for="pregunta4">
+                        Super Smash Bros
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio"
+                        name="pregunta4"
+                        id="pregunta4" value="Halo: Combat Evolved">
+                    <label class="form-check-label" for="pregunta4">
+                        Halo: Combat Evolved
+                    </label>
+                </div>
+                <br>
+                <p> 5-¿Cuál es el juego de consola más antiguo que sigue siendo
+                    popular
+                    hoy en día? </p>
+                <br>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio"
+                        name="pregunta5"
+                        id="pregunta5" value="Pac-Man">
+                    <label class="form-check-label" for="pregunta5">
+                        Pac-Man
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio"
+                        name="pregunta5"
+                        id="pregunta5" value="Tetris">
+                    <label class="form-check-label" for="pregunta5">
+                        Tetris
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio"
+                        name="pregunta5"
+                        id="pregunta5" value="Super Mario Bros">
+                    <label class="form-check-label" for="pregunta5">
+                        Super Mario Bros
+                    </label>
+                </div>
+                <br>
+                <p> 6-¿Qué consola popularizó el concepto de los juegos de rol
+                    (RPG)?</p>
+                <br>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio"
+                        name="pregunta6"
+                        id="pregunta6" value="Nintendo 64">
+                    <label class="form-check-label" for="pregunta6">
+                        Nintendo 64
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio"
+                        name="pregunta6"
+                        id="pregunta6"
+                        value="Super Nintendo Entertainment System (SNES)">
+                    <label class="form-check-label" for="pregunta6">
+                        Super Nintendo Entertainment System (SNES)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio"
+                        name="pregunta6"
+                        id="pregunta6" value="PlayStation">
+                    <label class="form-check-label" for="pregunta6">
+                        PlayStation
+                    </label>
+                </div>
+                <br>
+                <p> 7-¿Cuál fue el primer juego de consola en usar la tecnología
+                    de
+                    movimiento?</p>
+                <br>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio"
+                        name="pregunta7"
+                        id="pregunta7" value="Dance Dance Revolution">
+                    <label class="form-check-label" for="pregunta7">
+                        Dance Dance Revolution
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio"
+                        name="pregunta7"
+                        id="pregunta7" value="EyeToy: Play">
+                    <label class="form-check-label" for="pregunta7">
+                        EyeToy: Play
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio"
+                        name="pregunta7"
+                        id="pregunta7" value="Wii Sports">
+                    <label class="form-check-label" for="pregunta7">
+                        Wii Sports
+                    </label>
+                </div>
+            </form>
+            <br>
+            <button type="button" class="btn btn-primary"
+                onclick="resultados()">Resultado</button>
+        </div>
+
+        <script src="main.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
